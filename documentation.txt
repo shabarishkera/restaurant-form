@@ -1,0 +1,9 @@
+
+information to be in form :
+email :
+date:
+time:
+no-of-guest:
+
+
+the form will will be submitted in (name,value ) pairs and it should be handled by backend server.

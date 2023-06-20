@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css" />
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form" action="backend.js" method="post">
+        <h2>Reserve your table now</h2>
+        <div class="form-input">
+       <div class="form_group">
+        <input type="email" id="email_input"/>
+<label for="email_input" name="email">Email</label>
+
+       </div>
+       <div class="form_group">
+        <input type="date" name="date" id="date_input"><label for="date_input">Date</label>
+
+       </div>
+       <div class="form_group">
+        <input type="time" name="time" id="time_input"><label for="time_input">Time</label>
+
+       </div>
+       <div class="form_group">
+        <input type="number" name="noOfGuests" min="1" max="10" id="number_input"><label for="number_input">Number of guests</label>
+
+       </div>
+     <button type="submit">submit</button>
+    </div>
+    </form>
+</body>
+
+</html>
